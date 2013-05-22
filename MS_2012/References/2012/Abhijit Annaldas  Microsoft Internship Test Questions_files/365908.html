@@ -1,0 +1,57 @@
+
+<!-- saved from url=(0062)http://rc.rlcdn.com/365908.html?redirect=1&rl=815e976a1799d4dd -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">
+var anas = [2408,2438,1585,1997,2508,2558,1595,2908,2478,2156,2748,3158,3198,2458,2146,1215,1325,1495,1575,1635,1705,1765,1907,1927,2067,2106,2186,2328,2418,3058,3218];
+var curCall = 0;
+var stop = 0;
+function loadNextPixel() {
+  if(curCall < anas.length && stop == 0) {
+    loadPixel(anas[curCall], curCall + 1);
+    curCall++;
+  }
+};
+function loadPixel(anaId, n) {
+  var elem = document.createElement('img');
+  if (elem.addEventListener) {
+    elem.addEventListener('load',loadNextPixel,false);
+    elem.addEventListener('error',loadNextPixel,false);
+  } else if (elem.attachEvent) {
+    elem.attachEvent('onload',loadNextPixel);
+    elem.attachEvent('onerror',loadNextPixel);
+  }
+  elem.border = '0';
+  elem.hspace = '0';
+  elem.vspace = '0';
+  elem.width = '1';
+  elem.height= '1';
+  elem.src = 'http://rc.rlcdn.com/365908.gif?n=' + n + '&ana=' + anaId + '&' + 'redirect=1&rl=815e976a1799d4dd';
+  document.body.appendChild(elem);
+};
+function extraCalls() {
+  loadNextPixel();
+  loadNextPixel();
+  loadNextPixel();
+  loadNextPixel();
+  loadNextPixel();
+}
+function stopCalls() {
+  stop = 1;
+}
+function extraCallsWithTimeout() {
+  window.setTimeout('extraCalls()',500);
+}
+if (window.addEventListener) {
+  window.addEventListener('load',extraCallsWithTimeout,false);
+} else if (window.attachEvent) {
+  window.attachEvent('onload',extraCallsWithTimeout);
+}
+</script></head>
+<body><img border="0" hspace="0" vspace="0" width="1" height="1" src="default(1)">
+
+<img border="0" hspace="0" vspace="0" width="1" height="1" src="_redir.gif">
+
+<img border="0" hspace="0" vspace="0" width="1" height="1" src="liveramp.gif">
+
+<img border="0" hspace="0" vspace="0" width="1" height="1" src="p16">
+
+<img border="0" hspace="0" vspace="0" width="1" height="1" src="362388.gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908.gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(1).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(2).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(3).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(4).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(5).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(6).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(7).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(8).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(9).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(10).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(11).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(12).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(13).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(14).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(15).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(16).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(17).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(18).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(19).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(20).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(21).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(22).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(23).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(24).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(25).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(26).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(27).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(28).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(29).gif"><img border="0" hspace="0" vspace="0" width="1" height="1" src="365908(30).gif"></body></html>
